@@ -35,4 +35,4 @@ jobs:
       with:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         prerelease: false
-        files: ${{ matrix.artifact_name }} # Use matrix variable here
+        files: ${{ matrix.artifact_name }}
